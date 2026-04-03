@@ -32,6 +32,36 @@ This is a Flutter todo app for managing daily tasks. It lets you add, edit, and 
 4. Run `flutter test` to check the tests.
 5. Run `flutter analyze` to check for code issues.
 
+## Build and Release
+Use these commands from the project root when you want a release build.
+
+### Android APK
+```bash
+flutter build apk --release
+```
+
+### Android App Bundle (Play Store)
+```bash
+flutter build appbundle --release
+```
+
+### iOS
+```bash
+flutter build ios --release
+```
+
+### Web
+```bash
+flutter build web --release
+```
+
+### Windows
+```bash
+flutter build windows --release
+```
+
+For Android signing, use `android/key.properties.example` as a template and add your own keystore details before creating final release files.
+
 ## Usage
 1. Open the app.
 2. Complete the onboarding screen if it appears on first launch.
