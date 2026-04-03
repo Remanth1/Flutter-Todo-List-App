@@ -3,6 +3,13 @@
 ## Project Overview
 This is a Flutter todo app for managing daily tasks. It lets you add, edit, and delete tasks, set priorities and due dates, organize work with categories and lists, and track progress with basic stats. The app stores data locally on the device, so it works offline.
 
+## Download APK
+Visitors can download the Android app directly without cloning the repository:
+
+- [Download Latest APK](https://github.com/Remanth1/Flutter-Todo-List-App/raw/main/apk/app-release.apk)
+
+Note: On Android, enable installation from unknown sources if prompted.
+
 ## Features
 - Add, edit, and delete tasks
 - Mark tasks as complete or incomplete
